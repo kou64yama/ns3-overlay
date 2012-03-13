@@ -22,6 +22,8 @@ x11-libs/qt-core
 "
 DEPEND="${RDEPEND}"
 
+S="${WORKDIR}/netanim"
+
 src_install () {
 	exeinto "${EPREFIX}/usr/bin"
 	doexe "${PN}"
