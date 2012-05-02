@@ -14,6 +14,7 @@ IUSE=""
 
 RDEPEND="
 x11-libs/qt-core
+x11-libs/qt-svg
 "
 
 DEPEND="${RDEPEND}"
