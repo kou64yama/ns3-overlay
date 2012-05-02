@@ -13,12 +13,13 @@ LICENSE="GPL-2"
 IUSE=""
 
 RDEPEND="
+dev-libs/xerces-c
 x11-libs/qt-core
 "
 
 DEPEND="${RDEPEND}"
 
-EHG_REPO_URI="http://code.nsnam.org/jabraham3/netanim"
+EHG_REPO_URI="http://code.nsnam.org/jabraham3/netanim2"
 
 qt4-r2_src_install () {
 	exeinto "${EPREFIX}/usr/bin"
