@@ -33,7 +33,7 @@ layman のリポジトリは，このファイルの
 
 と変更すれば，このリポジトリを使用できるようになるはずです．
 
-    layman --sync-all
+    layman --fetch
     layman --add ns3-overlay
 
 として，リポジトリを追加します．
